@@ -1,0 +1,36 @@
+<!-- 2019-08-31 -->
+<aside class="x-zxtc clearfix">
+    <div onclick="swtClick();" class="x-zxtc-swt clearfix">
+        <div class="x-zxtc-item">
+            <i style="background-position: 5px -257px;"></i> 在线咨询
+        </div>
+    </div>
+    <div class="x-zxtc-tel clearfix">
+        <div class="x-zxtc-item">
+            <i style="background-position:5px -313px;"></i> 免费回电
+        </div>
+        <div class="x-zxtc-tel-inner">
+            <div class="x-zxtc-tel-inner-telinput clearfix">
+           <form action="http://www.szxdfpr.com/plus/diy.php" enctype="multipart/form-data" method="post" >
+                    <input type="hidden" name="fromurl" id="call_fromurl" value="">
+                    <input type="hidden" name="sid" value="2019261729">
+                    <input type="hidden" name="did" value="1013016">
+                    <input type="hidden" name="user_from" value="官网侧栏免费通话">
+                    <input name="shouji" type="text" id="tel" placeholder="请输入你的电话">
+                    <input type="submit" name="Submit" class="lxb-sy" value="免费通话" onclick="calltel('免费回电')">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="x-zxtc-backtop">
+        <div class="x-zxtc-item">
+            <i style="background-position:-344px 12px;"></i> 返回顶部
+        </div>
+    </div>
+<script>
+$('.x-zxtc-backtop').click(function(){
+    // btn_click("返回顶部",'返回顶部');
+    $("html,body").stop().animate({scrollTop:"0"});
+});
+</script>
+</aside>

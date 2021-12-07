@@ -1,0 +1,321 @@
+@charset "GBK";
+
+*{ padding:0; margin:0;border:none;}
+/*body,button,dd,div,dl,dt,h1,h2,h3,h4,h5,img,ul,li,menu,p,figure{margin:0;padding:0}*/
+body{margin: 0; padding: 0; font: 16px '微软雅黑','Microsoft YaHei',arial,Helvetica,sans-serif; color: #333; background: #fff;min-width: 1232px;}
+ul,li{margin:0;padding:0;list-style:none;}
+table{border-collapse:collapse;border-spacing:0}
+menu{margin:0;padding:0;}
+img{border:none; vertical-align:middle;}
+a{text-decoration:none; color: inherit;cursor: pointer;}
+.flex{display: flex; flex-direction: row; flex-wrap: wrap;justify-content: space-between;}
+.demo, .clear{clear:both}
+
+
+
+/* CSS Document */
+.fl{ float:left;}
+.fr{ float:right;}
+.flex{display: flex; flex-direction: row; flex-wrap: wrap;justify-content: space-between;}
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix{*zoom:1;}
+.wrap{ width:1282px; margin: auto;}
+.mar30 {margin: 30px auto;}
+
+
+.banner {
+  height: 462px;
+  background: url("../images/banner.jpg") no-repeat center;
+}
+/*标题*/
+.title_main {
+  font-size: 36px;
+  color: #c92f26;
+  text-align: center;
+  font-weight: bold;
+}
+/*人群*/
+.rq li {
+  width: 390px;
+  text-align: center;
+}
+.rq li img {
+  width: 390px;
+  height: 180px;
+  margin-bottom: 10px;
+}
+.rq li strong {
+  font-size: 20px;
+}
+.rq li p {
+  text-align: left;
+  padding: 10px;
+}
+/*表单*/
+.box {
+  width: 100%;
+  background: #eaeaea;
+  overflow: hidden;
+}
+.box_span {
+  width: 300px;
+  color: #939393;
+  letter-spacing: 8px;
+  margin: 30px 60px 0;
+}
+.box_span b {
+  font-size: 30px;
+  color: #333;
+  letter-spacing: normal;
+}
+.box_p {
+  text-align: right;
+  color: #db5656;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+.box-input {
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 8px;
+  text-indent: 1em;
+  margin-top: 30px;
+}
+.box-submit {
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  background: #313131;
+  border-radius: 8px;
+  text-indent: 1em;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 30px;
+}
+/*教学优势*/
+.ys li {
+  width: 270px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 2em;
+  margin-bottom: 20px;
+}
+.ys li img {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  padding: 20px;
+  border: 1px solid #c4c4c4;
+  transition: all 0.35s;
+  margin-bottom: 10px;
+}
+.ys li:hover img {
+  transform: rotate(360deg);
+}
+/*课程内容*/
+.kcnr {
+  height: 528px;
+  position: relative;
+  padding: 30px 0;
+}
+.kcnr_title {
+  width: 610px;
+  height: 240px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+.kcnr_pagination li {
+  width: 120px;
+  height: 50px;
+  color: #979797;
+  border-radius: 0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.kcnr_pagination li.on {
+  color: #26a8c4;
+  background: transparent;
+}
+.kcnr_pagination li .jdxdfont {
+  display: inline-block;
+  font-size: 42px;
+  margin-right: 10px;
+}
+.kcnr_pagination li b {display: inline-block;}
+
+.kcnr_con li {
+  position: relative;
+  display: none;
+}
+.kcnr_con li:first-child {display: block;}
+.kcnr_con_txt {
+  width: 568px;
+  height: 236px;
+  padding: 20px;
+  margin-top: 250px;
+  border: 1px solid;
+  background: #fff;
+  color: #979797;
+  float: left;
+}
+
+.kcnr_con_tit strong {
+  font-size: 24px;
+  color: #333;
+  letter-spacing: 12px;
+}
+.kcnr_con li img {
+  width: 970px;
+  height: 528px;
+  position: absolute;
+  left: 630px;
+  top: 0;
+}
+.kcnr_con_a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  background: #ff6666 url("../images/icon.png") no-repeat 150px center;
+  border-radius: 5px;
+  color: #fff;
+  text-indent: 30px;
+}
+/*教学模块*/
+.jxmk {padding-bottom: 30px;}
+.jxmk_con {width: 420px;}
+.jxmk_con_tit {
+  height: 100px;
+  background: #78dbf0;
+  color: #fff;
+  position: relative
+}
+.jxmk_con_tit_left {
+  height: 60px;
+  padding: 20px;
+}
+.jxmk_con_tit_left hr {
+  width: 70px;
+  border: 1px solid #fff;
+}
+.jxmk_con_tit_left strong {
+  display: block;
+  padding: 5px 0;
+  font-size: 26px;
+}
+.jxmk_con_tit_right {
+  font-size: 100px;
+  position: absolute;
+  right: 20px;
+  bottom: -30px;
+}
+.jxmk_con_p {
+  height: 120px;
+  padding: 20px;
+  line-height: 1.5em;
+}
+.jxmk_con_a {
+  display: block;
+  width: 248px;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #78dbf0;
+  color: #78dbf0;
+  text-align: center;
+  margin: auto;
+}
+/*技能学历*/
+.xlzs {width: 100%;overflow: hidden;}
+.xlzs_tit {display: none;}
+.xlzs_con li {
+  height: 450px;
+  position: relative;
+  display: none;
+}
+.xlzs_con li:first-child {display: block;}
+.xlzs_left {
+  width: 973px;
+  height: 450px;
+  position: absolute;
+  right: 630px;
+  top: 0;
+}
+.xlzs_txt {
+  width: 610px;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.xlzs_title {
+  height: 120px;
+  line-height: 120px;
+  background: #26a8c4;
+  text-align: center;
+}
+.xlzs_txt_p {
+  height: 240px;
+  line-height: 2em;
+  color: #989898;
+  padding: 20px 0;
+}
+.xlzs_txt_p strong {
+  display: block;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.xlzs_txt_p font {color: #d00000;}
+.xlzs_txt .jxmk_con_a {margin-left: 0;}
+/*就业服务*/
+.cjy_tit {display: none;}
+.cjy_con li {
+  height: 550px;
+  position: relative;
+  display: none;
+}
+.cjy_con li:first-child {display: block;}
+.cjy_right {
+  width: 970px;
+  height: 550px;
+  position: absolute;
+  left: 630px;
+  top: 0;
+}
+.cjy_txt {
+  width: 610px;
+  height: 550px;
+}
+.cjy_title {
+  height: 120px;
+  line-height: 120px;
+  background: #26a8c4;
+  padding-left: 50px;
+}
+.cjy_txt_p {
+  height: 340px;
+  line-height: 2em;
+  color: #989898;
+  padding: 20px 0;
+}
+.cjy_txt_p strong {
+  display: block;
+  font-size: 24px;
+  padding-bottom: 15px;
+}
+.cjy_txt .jxmk_con_a {margin-left: 0;}
+
+.tj li {
+  width: 310px;
+  text-align: center;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.tj li p {
+  padding: 10px 0;
+  font-size: 24px;
+}

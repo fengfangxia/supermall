@@ -1,0 +1,58 @@
+<section class="w1200 other">
+    <div class="other-left">
+        <div class="other-title">
+            <img class="lazy" src="http://www.szxdfpr.com/templets/shxdf/images/grey.gif" data-original="/public/style/images/other-icon.png" alt=""> 选择专业&nbsp;&nbsp;了解学费
+        </div>
+        <form action="http://www.szxdfpr.com/plus/diy.php" enctype="multipart/form-data" method="post" onsubmit="return checkForm()">
+            <div class="input">
+                <input type="text" id="user_name" name="user_name" placeholder="请输入您的姓名"  >
+                <input type="text" id="shouji" name="shouji" placeholder="请输入您的电话" >
+                <select name="zy" id="zy" reg="[^0]" tip="一定要选择哟">
+                    <option disabled="" selected="" value="">请选择您的专业</option>
+                    <option value="厨师专业">厨师专业</option>
+                    <option value="西点专业">西点专业</option>
+                    <option value="西餐专业">西餐专业</option>
+                    <option value="其他专业">其他专业</option>
+                </select>
+                <div class="last">
+                    <input class="submit-btn" type="submit" name="submit" value="获取学费信息">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="other-right">
+        <div class="other-title">
+            <img class="lazy" src="http://www.szxdfpr.com/templets/shxdf/images/grey.gif" data-original="/public/style/images/other-icon.png" alt=""> 查看更多专业
+        </div>
+        <div class="zy-list">
+            <div onclick="return swtClick()">
+                <img class="lazy" src="http://www.szxdfpr.com/templets/shxdf/images/grey.gif" data-original="/public/style/images/zy-icon2.png" alt="">
+                <div class="zy-text">
+                    <span>烹饪专业</span>
+                    <p>教师指导 规范教学</p>
+                </div>
+            </div>
+            <div onclick="return swtClick()">
+                <img class="lazy" src="http://www.szxdfpr.com/templets/shxdf/images/grey.gif" data-original="/public/style/images/zy-icon1.png" alt="">
+                <div class="zy-text">
+                    <span>西点专业</span>
+                    <p>外籍教师 成就好技术</p>
+                </div>
+            </div>
+            <div onclick="return swtClick()">
+                <img class="lazy" src="http://www.szxdfpr.com/templets/shxdf/images/grey.gif" data-original="/public/style/images/zy-icon3.png" alt="">
+                <div class="zy-text">
+                    <span>西餐专业</span>
+                    <p>双语教学 就业更出色</p>
+                </div>
+            </div>
+            <div onclick="return swtClick()">
+                <img class="lazy" src="http://www.szxdfpr.com/templets/shxdf/images/grey.gif" data-original="/public/style/images/zy-icon4.png" alt="">
+                <div class="zy-text">
+                    <span>短期专业</span>
+                    <p>开启创业好选择</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

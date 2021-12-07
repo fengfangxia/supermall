@@ -1,0 +1,57 @@
+@font-face {font-family: "jdxdfont";
+  src: url('../fonts/font_1597081_nyn6sob6dx.eot'); /* IE9 */
+  src: url('../fonts/font_1597081_nyn6sob6dx.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/f4f2b678580a44bc8b739ddf244c2b18.woff') format('woff2'),
+  url('../fonts/font_1597081_nyn6sob6dx.woff') format('woff'),
+  url('../fonts/font_1597081_nyn6sob6dx.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('../fonts/font_1597081_nyn6sob6dx.svg') format('svg'); /* iOS 4.1- */
+}
+
+.jdxdfont {
+  font-family: "jdxdfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jdxd-08:before {
+  content: "\e60a";
+}
+
+.jdxd-05:before {
+  content: "\e601";
+}
+
+.jdxd-01:before {
+  content: "\e611";
+}
+
+.jdxd-06:before {
+  content: "\e605";
+}
+
+.jdxd-07:before {
+  content: "\e722";
+}
+
+.jdxd-03:before {
+  content: "\e618";
+}
+
+.jdxd-02:before {
+  content: "\e6d7";
+}
+
+.jdxd-10:before {
+  content: "\e6cc";
+}
+
+.jdxd-04:before {
+  content: "\e602";
+}
+
+.jdxd-09:before {
+  content: "\e604";
+}
+
